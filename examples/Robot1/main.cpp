@@ -73,7 +73,7 @@ int main(int argc, char** argv)
     T distanceNoise = 0.25;
     
     // Simulate for 100 steps
-    const size_t N = 100;
+    const size_t N = 10000;
     for(size_t i = 1; i <= N; i++)
     {
         // Generate some control input
